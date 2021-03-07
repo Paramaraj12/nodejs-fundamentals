@@ -1,0 +1,11 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "emittery": "^0.8.1",
+    "eventemitter3": "^4.0.7",
+    "module-deps": "^6.2.3",
+    "node": "^15.10.0"
+  }
+}
