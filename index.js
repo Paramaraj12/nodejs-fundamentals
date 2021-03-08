@@ -33,12 +33,13 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 // callFunction(sayBye);
 
 //module
-var events = require("events");
+// var events = require("eventemitter2");
+// var util = require("util");
 // console.log(stuff.counter(["nk", "moni", "param"]));
 // console.log(stuff.adder(5, 6));
-// console.log(stuff.adder(stuff.pi, 6));
-var myEmitter = new events.EventEmitter();
-myEmitter.on("someEvent", function(message) {
-  console.log(message);
-});
-myEmitter.emit("someEvent", "event was emitted");
+// // console.log(stuff.adder(stuff.pi, 6));
+// var myEmitter = new events();
+// myEmitter.on("someEvent", function(message) {
+//   console.log(message);
+// });
+// myEmitter.emit("someEvent", "event was emitted");
