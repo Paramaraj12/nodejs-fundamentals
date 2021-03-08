@@ -43,3 +43,10 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 //   console.log(message);
 // });
 // myEmitter.emit("someEvent", "event was emitted");
+
+//read and write filea
+// var fs = require("fs");
+
+// fs.readFile("readMe.txt", "utf8", function(err, data) {
+//   fs.writeFile("writeMe.txt", data);
+// });
